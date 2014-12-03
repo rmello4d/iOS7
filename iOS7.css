@@ -38,7 +38,7 @@
   background-color: #e6e6e6;
 }
 .waf-theme.iOS7 .waf-widget-odd {
-  background-color: rgba(192, 192, 192, 0.050000000000000044);
+  background-color: rgba(192, 192, 192, 0.05);
 }
 .waf-theme.iOS7 .waf-button {
   -webkit-user-select: none;
@@ -1016,7 +1016,6 @@
   -ms-user-select: none;
   user-select: none;
 }
-
 /* Tabs */
 .waf-theme.iOS7 .waf-tabs .waf-tabstab {
   padding: 0 0.5rem;
@@ -1037,4 +1036,32 @@
   background-color: #fff;
   color: #007aff;
   cursor: default;
+}
+.waf-theme.iOS7 .btn {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #157efa;
+  border-radius: 4px;
+  background-color: #ffffff;
+  color: #157efa;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  padding: 0;
+}
+.waf-theme.iOS7 .form-control {
+  border-width: 1px;
+  border-style: solid;
+  border-color: #c0c0c0;
+  color: #000000;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+}
+.waf-theme.iOS7 .well {
+  border-width: 1px;
+  border-style: solid;
+  border-color: #c0c0c0;
+  background-color: #ffffff;
 }
